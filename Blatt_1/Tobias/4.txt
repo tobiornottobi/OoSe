@@ -1,0 +1,23 @@
+Ausgaben 
+1: false – Der Zahl wird der Wahrheitswert von (a==b) angehängt.
+2: true – Der Zahl wird der Wahrheitswert von (a==b-19) angehängt.
+3: 45
+Es wird die Zahl angehängt, die sich durch binäres Exklusivoder ergibt.
+0000000
+0001111
+0100010
+———————
+0101101
+=45	
+	
+4: 45
+Es wird die Zahl angehängt, die sich durch binäres Exklusivoder ergibt.
+a wird erst nach der Operation inkrementiert.
+
+5: 28
+Ein Linksshift von 7 um 2: 00111<<10= 11100
+
+6: 16 – 0x10 entspricht hexadezimal 10, also 16 dezimal. Für einen Vergleich fehlt jeweils ein =.
+    
+7: 10.0 – 1e1 entspricht 10¹ 
+
