@@ -2,7 +2,7 @@ public class Nr1 {
 	public static void main(String[] args) {
 		System.out.println(facRec(5));
 		System.out.println(binom(5, 2));
-		System.out.println(naivC(10, 4));
+		System.out.println(naiveC(10, 4));
 	}
 
 	public static long facRec(long n) {
@@ -17,7 +17,7 @@ public class Nr1 {
 		return o / facRec(k);
 	}
 
-	public static long naivC(long n, long k) {
+	public static long naiveC(long n, long k) {
 		return binom(n, k) * facRec(k);
 	}
 
