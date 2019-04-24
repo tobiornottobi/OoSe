@@ -13,7 +13,7 @@ class Binomial{
 	}
 	
 //Anmerkung zum Hinweis zur Aufgabe: wenn der Binomialkoeffizient noch schlechter implemetiert wird (alle Multiplikationen, alle zuerst)...
-//dann kann das Zwischenergebnis leicht zu groß werden. (nicht getestet, dass war ein Problem in der Implementierung in C)
+//dann kann das Zwischenergebnis leicht zu groï¿½ werden. (nicht getestet, dass war ein Problem in der Implementierung in C)
 	long bin_coeff(int n, int k) {
 		if(k>n) {return 0;}
 		long res = 1;
