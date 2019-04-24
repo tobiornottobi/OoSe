@@ -20,4 +20,12 @@ public class Nr1 {
 	public static long naivC(long n, long k) {
 		return binom(n, k) * facRec(k);
 	}
+
+	public static long cleverC(long n, long k) {
+		long o = 1;
+		for (int i = 0; i < k; i++) {
+			o *= n - i;
+		}
+		return o;
+	}
 }
