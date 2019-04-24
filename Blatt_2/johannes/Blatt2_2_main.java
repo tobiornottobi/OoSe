@@ -15,8 +15,8 @@ public class Blatt2_2_main {
 		System.out.println("6.5 == 6.5f? " + test1 + " / 6.4 = 6.4f? " + test2);
 	}
 	
-	//Zur Frage: Die Zahlen werden nach IEEE in binäre Darstellung übertragen; s1 in double, s2 in float.
-	//Ob die beiden nach Konvertierung gleich erkannt werden, hängt davon ab, ob auf dem Weg gerundet werden muss
-	//Ist die binäre Darstellung z.B. periodisch, dann wird bei float und double an unterschiedlichen Stellen gerundet.
+	//Zur Frage: Die Zahlen werden nach IEEE in binï¿½re Darstellung ï¿½bertragen; s1 in double, s2 in float.
+	//Ob die beiden nach Konvertierung gleich erkannt werden, hï¿½ngt davon ab, ob auf dem Weg gerundet werden muss
+	//Ist die binï¿½re Darstellung z.B. periodisch, dann wird bei float und double an unterschiedlichen Stellen gerundet.
 
 }

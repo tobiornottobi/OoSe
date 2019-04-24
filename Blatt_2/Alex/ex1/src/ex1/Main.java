@@ -12,7 +12,7 @@ public class Main {
 	
 	public static long binco (long n, long k) {
 		if(n<0 || k<0) {
-			System.out.println("Binomialkoeffizient ist nicht für negative Zahlen definiert!");
+			System.out.println("Binomialkoeffizient ist nicht fï¿½r negative Zahlen definiert!");
 			return -1;
 		}
 		else if (0 <= n && n <= k) return 0;
