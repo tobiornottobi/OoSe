@@ -6,6 +6,7 @@ public class Schifffahrtsamt {
 	public void regestriereSchiff(Schiff schiff) {
 		if (numberOfRegistertShips < schiffe.length) {
 			schiffe[numberOfRegistertShips] = schiff;
+			numberOfRegistertShips++;
 		}
 	}
 
