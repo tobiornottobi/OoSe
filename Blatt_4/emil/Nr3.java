@@ -3,8 +3,8 @@ public class Nr3 {
 	public static void main(String[] args) {
 		Person[] personen = new Person[]{ 
 			new Person("Beothy-Elo", "Emil", 53332, "August-Macke Str.", 6), 
-			new Person("Jandrey", "David", 404, "Arsch-der-Welt", 700),
-			new Person("0apdpa", "pa", 1456789, "iak", 2)
+			new Person("Jandrey", "David", 404, "Ende-der-Welt", 700),
+			new Person("lmnbvcxysertzu", "pa", 1456789, "iak", 2)
 		};
 		System.out.println(findMin(personen));
 
@@ -13,14 +13,14 @@ public class Nr3 {
 	}
 
 	public static <T extends Comparable<T>> T findMin(T[] x) {
-		if (x == null || x.length == 0) {
+		if (x == null) {
 			return null;
 		}
 		
-		T currMin = x[0];
-		for (int i = 1; i < x.length; i++) {
-			if (currMin.compareTo(x[i]) > 0) {
-				currMin = x[i];
+		T currMin;
+		for (T comp : x) {
+			if (currMin == null || currMin.compareTo(comp) > 0) {
+				currMin = comp;
 			}
 		}
 		return currMin;
