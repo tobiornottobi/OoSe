@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 public class Blatt5_2_main {
 	public static void main(String[] args) {
-		ArrayList<Körper> k_list = new ArrayList<Körper>();
+		ArrayList<KÃ¶rper> k_list = new ArrayList<KÃ¶rper>();
 		
 		//Beispielkugel
 		double[] p_k = new double[3];
@@ -9,7 +9,7 @@ public class Blatt5_2_main {
 		p_k[1] = 0;
 		p_k[2] = 0;
 		double r = 100;
-		Körper k = new Kugel(p_k, r);
+		KÃ¶rper k = new Kugel(p_k, r);
 		
 		k_list.add(k);
 		
@@ -21,11 +21,9 @@ public class Blatt5_2_main {
 		double l = 100;
 		double b = 50;
 		double h = 10;
-		Körper q = new Quader(p_k, l, b, h);
+		KÃ¶rper q = new Quader(p_q, l, b, h);
 		k_list.add(q);
 
-		//Problem:
-		//Beide Körper zeilen sich eine Positionsangabe p[]...
 
 		//Herumgewurschtele
 		double[] m = new double[3];
