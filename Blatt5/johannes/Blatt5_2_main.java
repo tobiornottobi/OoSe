@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 public class Blatt5_2_main {
 	public static void main(String[] args) {
-		ArrayList<KÃ¶rper> k_list = new ArrayList<KÃ¶rper>();
+		ArrayList<Körper> k_list = new ArrayList<Körper>();
 		
 		//Beispielkugel
 		double[] p_k = new double[3];
@@ -9,21 +9,20 @@ public class Blatt5_2_main {
 		p_k[1] = 0;
 		p_k[2] = 0;
 		double r = 100;
-		KÃ¶rper k = new Kugel(p_k, r);
+		Körper k = new Kugel(p_k, r);
 		
 		k_list.add(k);
 		
 		//Beispielquader
 		double[] p_q = new double[3];
-		p_q[0] = 0;
-		p_q[1] = 0;
-		p_q[2] = 0;
+		p_q[0] = 1000;
+		p_q[1] = 1000;
+		p_q[2] = 1000;
 		double l = 100;
 		double b = 50;
 		double h = 10;
-		KÃ¶rper q = new Quader(p_q, l, b, h);
+		Körper q = new Quader(p_q, l, b, h);
 		k_list.add(q);
-
 
 		//Herumgewurschtele
 		double[] m = new double[3];

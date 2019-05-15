@@ -6,7 +6,7 @@ public class Quader extends Körper {
 	private double h;
 
 	public Quader(double p[], double l, double b, double h) {
-		this.p = p;
+		set_p(p);
 		this.l = l;
 		this.b = b;
 		this.h = h;
@@ -20,6 +20,8 @@ public class Quader extends Körper {
 		return l*b*h;
 	}
 	public void print_para() {
+		double[] p = new double[3];
+		p = get_p();
 		System.out.println("Position: (" + p[0] + " " + p[1] + " " + p[2] + ")");
 		System.out.println("Typ: Quader");
 		System.out.println("Länge: " + l);
